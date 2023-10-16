@@ -13,7 +13,9 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Header = () => {
-  const style = { color: "black" };
+  const style = { color: "black",
+                  margin: "auto",
+                };
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
